@@ -1,0 +1,27 @@
+{
+  "name": "api-x",
+  "version": "1.0.0",
+  "description": "API de Cadastro de Livros e Autores",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.10",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "hapi-swagger": "^17.2.1",
+    "joi": "^17.12.3",
+    "klaw-sync": "^6.0.0",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
